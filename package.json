@@ -1,0 +1,30 @@
+{
+  "name": "vue3_frame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit &&vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danjiamu1996/vue3_frame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danjiamu1996/vue3_frame/issues"
+  },
+  "homepage": "https://github.com/danjiamu1996/vue3_frame#readme",
+  "devDependencies": {
+    "@babel/types": "^7.19.0",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.13"
+  },
+  "dependencies": {
+    "vue": "^3.2.39"
+  }
+}
